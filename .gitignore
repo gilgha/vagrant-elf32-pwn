@@ -1,1 +1,5 @@
+# macOS crap
 .DS_Store
+# Vagrant working files
+.vagrant/
+*.log
