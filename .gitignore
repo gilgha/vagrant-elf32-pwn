@@ -3,3 +3,5 @@
 # Vagrant working files
 .vagrant/
 *.log
+# workdir (to place ELF32 to pwn)
+workdir/
