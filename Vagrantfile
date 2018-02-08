@@ -13,6 +13,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.provision "shell", path: "provision/apt-update.sh", privileged: true
   config.vm.provision "shell", path: "provision/install-tools.sh", privileged: true
+  config.vm.provision "shell", path: "provision/install-radare2.sh", privileged: true
   config.vm.provision "shell", path: "provision/setup-bashrc.sh", privileged: false
 
   config.vm.post_up_message = "Done! You can now start pwning in this ELF32 environment :-) !"
