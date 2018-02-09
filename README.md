@@ -25,7 +25,7 @@ The `workdir` directory is used to share files between your host and the virtual
 
 | Context 	| Path 							|
 | --------- | ----------------------------- |
-| Host 		| `\<PROJECT ROOT\>/workdir` 	|
+| Host 		| `$PROJECT_ROOT/workdir` 		|
 | VM 		| `/vagrant/workdir` 			|
 
 Please do not write into the project root to avoid messing with Git. 
