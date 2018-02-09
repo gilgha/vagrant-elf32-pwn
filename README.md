@@ -23,10 +23,10 @@ https://github.com/nickryand/vagrant-multi-putty
 
 The `workdir` directory is used to share files between your host and the virtual machine.
 
-| Context 	| Path 						|
-| --------- | ------------------------- |
-| Host 		| \<PROJECT ROOT\>/workdir 	|
-| VM 		| /vagrant/workdir 			|
+| Context 	| Path 							|
+| --------- | ----------------------------- |
+| Host 		| `\<PROJECT ROOT\>/workdir` 	|
+| VM 		| `/vagrant/workdir` 			|
 
 Please do not write into the project root to avoid messing with Git. 
 
